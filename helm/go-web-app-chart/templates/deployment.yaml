@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: chethantk/chethan-project:{{ .Values.image.tag }}
+        image: chethantk/go-web-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
